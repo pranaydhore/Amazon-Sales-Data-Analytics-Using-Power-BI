@@ -38,19 +38,19 @@ Validate Data Types: Confirm that numerical fields like Quantity, Total Sales, a
 <h5>Step 2:</h5> Developing Key Metrics with DAX<br>
 
 <h3>Using DAX, create measures to enable insightful analysis:</h3><br>
-<h4>Total Sales:</h4><br>
+<h4>Total Sales:</h4>
 Total Sales = SUM('Sales Data'[Total Sales])<br>
-<h4>Total Profit:</h4><br>
+<h4>Total Profit:</h4>
 Total Profit = SUM('Sales Data'[Profit])<br>
-<h4>Profit Margin:</h4><br>
+<h4>Profit Margin:</h4>
 Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)<br>
-<h4>Top-Selling Region:</h4><br>
+<h4>Top-Selling Region:</h4>
 Top-Selling Region = 
 CALCULATE(
     [Total Sales], 
     TOPN(1, ALL('Sales Data'[Region]), [Total Sales], DESC)
 )
-<h4>Sales by Category:</h4><br>
+<h4>Sales by Category:</h4>
 Sales by Category = 
 SUMMARIZE(
     'Sales Data',

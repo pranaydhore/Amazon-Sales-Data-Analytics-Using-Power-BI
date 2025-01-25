@@ -3,7 +3,7 @@
 <h1>Amazon Sales Data Analysis Using Power BI</h1>
     <p>This project involves analyzing Amazon sales data using Power BI to create a comprehensive and interactive dashboard. The goal is to gain insights into sales trends, profit margins, regional performance, and category contributions. Using advanced DAX (Data Analysis Expressions) formulas and Power BI's visual capabilities, this project translates raw data into actionable business intelligence.</p>
 
-<h2>The Role of Power BI in Data Analytics</h2>
+<h2>The Role of Power BI in Data Analysis</h2>
     <p>Power BI is a powerful business intelligence tool that allows users to connect, transform, and visualize data seamlessly. With its intuitive interface and advanced functionalities like DAX (Data Analysis Expressions), Power BI bridges the gap between raw data and actionable insights. This project utilizes Power BI to create an interactive dashboard, providing stakeholders with insights into Amazon’s sales performance. The platform’s ability to integrate data from multiple sources, perform complex calculations, and generate visually appealing reports makes it ideal for this use case.</p>
 
 <h2>Objectives</h2>
